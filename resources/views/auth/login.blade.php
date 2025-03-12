@@ -1,9 +1,7 @@
 <x-app-layout>
-    <!-- Session Status -->
-    <x-auth-session-status class="mb-4" :status="session('status')" />
 
     <!-- Normal Breadcrumb Begin -->
-    <section class="normal-breadcrumb set-bg" data-setbg={{ asset('img/normal-breadcrumb.jpg') }}>
+    <section class="normal-breadcrumb set-bg" data-setbg="{{ asset('assets/img/normal-breadcrumb.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -49,4 +47,4 @@
         </div>
     </section>
     <!-- Login Section End -->
-    </x-guest-layout>
+</x-app-layout>
